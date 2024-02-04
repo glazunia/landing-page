@@ -145,3 +145,27 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    max-width: 900px;
+    color: #1f2937;
+    margin: 0 auto;
+    padding: 84px 16px;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote .quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
