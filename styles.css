@@ -13,7 +13,8 @@ body {
 }
 
 .navbar,
-.hero {
+.hero,
+.footer {
     background-color: #1f2937;
 }
 
@@ -213,4 +214,12 @@ body {
 
 .banner button:active {
     scale: 0.9;
+}
+
+.footer {
+    height: 100px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
