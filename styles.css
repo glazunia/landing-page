@@ -169,3 +169,48 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.banner .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.banner .banner-box {
+    width: 100%;
+    margin: 100px 16px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 48px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.banner .banner-text h2 {
+    color: #f9faf8;
+}
+
+.banner .banner-text p {
+    color: #e5e7eb;
+}
+
+.banner button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+}
+
+.banner button:hover {
+    background-color: hsl(217, 81%, 49%);
+    color: #e0e6db;
+    border: 2px solid #e0e6db;
+}
+
+.banner button:active {
+    scale: 0.9;
+}
